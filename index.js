@@ -19,7 +19,7 @@ var questionsArr = [
 
 ];
 
-var numCorrect = 5
+var numCorrect = question
 function runQuiz() {
 for (var i = 0; i < questionsArr.length; i++) {
     var ask = questionsArr.question
@@ -28,10 +28,10 @@ for (var i = 0; i < questionsArr.length; i++) {
         numCorrect++
     }
 }
-    if (numCorrect >= 5) {
-        alert("Your score is 100%")
-    }else {
+    if (numCorrect >= 1) {
         alert("Your score is 0%")
+    }else {
+        alert("Your score is 100%")
     }
 };
  
